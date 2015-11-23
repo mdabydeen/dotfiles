@@ -41,7 +41,7 @@ augroup configgroup
 	autocmd!
 	autocmd VimEnter * highlight clear SignColumn
 	autocmd BufWritePre *.php,*.py,*.js,*.txt,*.hs,*.java,*.md
-				\:call <SID>StripTrailingWhitespaces()
+				\ call <SID>StripTrailingWhitespaces()
 	autocmd FileType java setlocal noexpandtab
 	autocmd FileType java setlocal list
 	autocmd FileType java setlocal listchars=tab:+\ ,eol:-
@@ -49,6 +49,9 @@ augroup configgroup
 	autocmd FileType php setlocal list
 	autocmd FileType php setlocal listchars=tab:+\ ,eol:-
 	autocmd FileType php setlocal formatprg=par\ -w80\ -T4
+	autocmd FileType js setlocal list
+	autocmd FileType js setlocal listchars=tab:+\,eol:-
+	autocmd FileType js setlocal formatprg=par\ -w80\ -T4
 	autocmd FileType ruby setlocal tabstop=2
 	autocmd FileType ruby setlocal shiftwidth=2
 	autocmd FileType ruby setlocal softtabstop=2
