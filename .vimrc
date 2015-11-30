@@ -4,6 +4,9 @@ syntax enable
 " load filetype specific tab loading 
 filetype plugin indent on
 
+" for faster redraw
+set ttyfast
+
 " number of visual space per TAB
 set tabstop=4
 
@@ -22,6 +25,9 @@ set number
 " show the commaned line 
 set showcmd 
 
+" ignore case search
+set ignorecase
+
 " set current line highlight 
 set cursorline 
 
@@ -33,9 +39,6 @@ set hlsearch
 
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
-
-" set comma as leader 
-let mapleader=","
 
 augroup configgroup
 	autocmd!
