@@ -6,7 +6,7 @@ Quick Setup
 
 1. Clone the repository
 ```sh
-$ git clone https;//github.com/mdabydeen/dotfiles.git
+$ git clone https://github.com/mdabydeen/dotfiles.git
 ```
 
 2. Move into directory
