@@ -16,7 +16,7 @@ $ cd dotfiles/
 
 3. Copy vimrc
 ```sh
-$ cp vimrc ~/.vimrc
+$ cp .vimrc ~/.vimrc
 ```
 
 4, Copy color files
